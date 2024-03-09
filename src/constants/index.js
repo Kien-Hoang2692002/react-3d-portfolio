@@ -24,6 +24,7 @@ import {
   tailwindcss,
   threads,
   typescript,
+  python,
 } from "../assets/icons";
 
 export const skills = [
@@ -105,6 +106,11 @@ export const skills = [
   {
     imageUrl: typescript,
     name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: python,
+    name: "Python",
     type: "Frontend",
   },
 ];
